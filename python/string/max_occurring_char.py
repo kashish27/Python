@@ -17,7 +17,8 @@ max_char=chr(ascii_array.index(max(ascii_array)))
 #chr() gives corresponding character value to decimel(ascii value) 
 print ("Maximum occuring character in the String:"+max_char)                 
 
-
+#Time Complexity: O(n)
+#Space Complexity: O(1) —Using fixed space (Hash array) irrespective of input string size.
 
 '''
 NOTE-->
